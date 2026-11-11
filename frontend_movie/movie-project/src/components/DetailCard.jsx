@@ -51,7 +51,7 @@ function DetailCard({ movie }) {
           </div>
 
           {movie.yt_trailer_code && (
-            <div className="mt-8">
+            <div className="mt-8 ">
               <h2 className="mb-3 text-xl font-bold text-white">Official Trailer</h2>
               <div className="aspect-video w-full max-w-2xl overflow-hidden rounded-xl border border-brand-border shadow-lg">
                 <iframe className="h-full w-full" src={`https://www.youtube.com/embed/${movie.yt_trailer_code}`} title="Trailer" allowFullScreen />

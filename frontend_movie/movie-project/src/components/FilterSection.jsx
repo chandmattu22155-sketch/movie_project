@@ -1,6 +1,6 @@
 const genres = ["Action", "Adventure", "Animation", "Biography", "Comedy", "Crime", "Documentary", "Drama", "Family", "Fantasy", "History", "Horror", "Music", "Musical", "Mystery", "Romance", "Sci-Fi", "Sport", "Thriller", "War", "Western"];
 const qualities = ["480p", "720p", "1080p", "2160p", "3D"];
-const ratings = ["9", "8", "7", "6", "5"];
+const ratings = ["9", "8", "7", "6", "5", "4","3","2","1"];
 const currentYear = new Date().getFullYear();
 const years = Array.from({ length: 30 }, (_, i) => String(currentYear - i));
 const sortOptions = [["-date_uploaded_unix", "Recently added"], ["date_uploaded_unix", "Oldest added"], ["-rating", "Highest rating"], ["rating", "Lowest rating"], ["-year", "Newest year"], ["year", "Oldest year"], ["title", "Title A-Z"], ["-title", "Title Z-A"]];
